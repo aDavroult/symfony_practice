@@ -35,7 +35,7 @@ class HomeController extends AbstractController{
     {
         //rediriger depuis un template
  
-        return $this->render("default/test.html.twig");
+        return $this->render("default/base.html.twig");
     }
  
     /**
@@ -81,10 +81,10 @@ class HomeController extends AbstractController{
         $session = $request->getSession();
         $display = '';
         foreach($session as $key => $value){
-            $display = $display.'<p> La session ('.$key.') contient: ('.$value.')</p>';
+            $display = $display.'<body><p> La session ('.$key.') contient: ('.$value.')</p></body>';
         }
 
-        //return new Response($display);
+        return new Response($display);
 
     }
 
