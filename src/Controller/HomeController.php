@@ -86,7 +86,6 @@ class HomeController extends AbstractController{
 
         //return new Response($display);
 
-        return $this->render("default/sessions.html.twig", [
     }
 
     /**
