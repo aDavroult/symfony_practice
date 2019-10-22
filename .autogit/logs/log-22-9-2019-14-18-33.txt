@@ -1,0 +1,28 @@
+-------------------- Auto-Git Log --------------------
+		Tue Oct 22 2019 14:18:33 GMT+0200 (Central European Summer Time)
+------------------------------------------------------
+
+Modified files:
+* composer.json
+* composer.lock
+* config/bundles.php
+* src/Controller/HomeController.php
+* symfony.lock
+
+
+Created files:
+* config/packages/easy_admin.yaml
+* config/packages/twig_extensions.yaml
+* config/routes/easy_admin.yaml
+* src/Entity/Category.php
+* src/Entity/Product.php
+* src/Entity/User.php
+* src/Repository/CategoryRepository.php
+* src/Repository/ProductRepository.php
+* src/Repository/UserRepository.php
+
+
+Deleted files:
+
+
+Renamed files:
