@@ -54,7 +54,7 @@ class HomeController extends AbstractController{
     * @Route("/session-add-{name}-{content}", name="session")
     */
     public function session($name, $content, Request $request)
-    {
+    { 
         // creation d'une session
         $name = $request->attributes->get('name');
         $content = $request->attributes->get('content');
